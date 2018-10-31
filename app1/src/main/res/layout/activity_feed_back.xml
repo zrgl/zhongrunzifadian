@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/theme_gray"
+    android:orientation="vertical"
+    android:padding="@dimen/_20px_dp">
+ <!-- 意见反馈页面-->
+    <EditText
+        android:id="@+id/activity_feed_back_edt_content"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150px_dp"
+        android:layout_gravity="center"
+        android:background="@drawable/background_shape_white"
+        android:gravity="left"
+        android:hint="请输入您的反馈信息"
+        android:padding="@dimen/_10px_dp"
+        android:textCursorDrawable="@drawable/background_shape_cursor"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_14px_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_20px_dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background_shape_white"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/activity_feed_back_edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textCursorDrawable="@drawable/background_shape_cursor"
+            android:hint="真实姓名"
+            android:padding="@dimen/_10px_dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_1px_dp"
+            android:background="@color/theme_gray" />
+
+        <EditText
+            android:textCursorDrawable="@drawable/background_shape_cursor"
+            android:id="@+id/activity_feed_back_edt_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="联系电话"
+            android:padding="@dimen/_10px_dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40px_dp" />
+
+    <Button
+        android:id="@+id/activity_feed_back_btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/background_shape_blue"
+        android:gravity="center"
+        android:text="提交"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_16px_sp" />
+
+</LinearLayout>

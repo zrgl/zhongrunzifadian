@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/activity_base_toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50px_dp"
+        android:background="@color/theme"
+        android:clipToPadding="true"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/activity_base_ll_left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center|left">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/image_widget_back" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_base_ll_center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/activity_base_tv_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_18px_sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/activity_base_ll_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center|right">
+
+                <TextView
+                    android:id="@+id/activity_base_tv_right"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="@dimen/_20px_dp"
+                    android:gravity="center|right"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_14px_sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/activity_base_swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/activity_base_view_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

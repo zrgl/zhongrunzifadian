@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/_10px_dp">
+
+    <TextView
+        android:id="@+id/item_adapter_device_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:textSize="@dimen/_18px_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:id="@+id/item_adapter_device_tv_mac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:textSize="@dimen/_14px_sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+</LinearLayout>

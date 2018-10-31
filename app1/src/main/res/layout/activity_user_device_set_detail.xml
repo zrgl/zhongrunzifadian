@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/theme_gray"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <ImageView
+            android:id="@+id/item_user_device_set_detail_iv_image"
+            android:layout_width="@dimen/_76px_dp"
+            android:layout_height="@dimen/_76px_dp"
+            android:scaleType="center" />
+
+        <View
+            android:layout_width="@dimen/_20px_dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/_5px_dp">
+
+            <TextView
+                android:id="@+id/item_user_device_set_detail_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16px_sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5px_dp" />
+
+            <TextView
+                android:id="@+id/item_user_device_set_detail_tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="@dimen/_13px_sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_5px_dp" />
+
+            <TextView
+                android:id="@+id/item_user_device_set_detail_tv_intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#999999"
+                android:textSize="@dimen/_13px_sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_gears"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="档位"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_gears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择档位"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="速度"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择速度"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_lj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="轮径"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_lj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择轮径"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_offtime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关机时间"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_offtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择关机时间"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_backlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="背光等级"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_backlight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择背光等级"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_unit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="速度单位"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择速度单位"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1px_dp"
+        android:background="@color/theme_gray" />
+
+    <LinearLayout
+        android:id="@+id/item_user_device_set_detail_ll_charge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20px_dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="能量回收"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/item_user_device_set_detail_tv_charge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择能量回收"
+            android:textColor="#D2D2D2"
+            android:textSize="@dimen/_16px_sp" />
+
+        <View
+            android:layout_width="@dimen/_5px_dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="center"
+            android:src="@drawable/image_widget_right_black" />
+    </LinearLayout>
+
+</LinearLayout>

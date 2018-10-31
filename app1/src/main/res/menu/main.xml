@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_device"
+        android:icon="@drawable/image_item_device"
+        android:title="我的设备" />
+    <item
+        android:id="@+id/main_list"
+        android:icon="@drawable/image_item_list"
+        android:title="故障列表" />
+    <item
+        android:id="@+id/main_set"
+        android:icon="@drawable/image_item_set"
+        android:title="参数设置" />
+    <item
+        android:id="@+id/main_help"
+        android:icon="@drawable/image_item_help"
+        android:title="帮助中心" />
+
+    <item
+        android:id="@+id/main_feedback"
+        android:icon="@drawable/image_item_feedback"
+        android:title="意见反馈" />
+</menu>
